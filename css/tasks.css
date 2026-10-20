@@ -1,0 +1,92 @@
+.container {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  padding: 15px 0;
+
+  display: flex;
+  justify-content: center;
+}
+.content {
+  width: 450px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+
+
+.task {
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+/* --- Тело задачи --- */
+.task-title {
+  width: 100%;
+
+  font-size: 17px;
+  font-weight: bold;
+  color: #000;
+  word-wrap: break-word;
+}
+.task-description {
+  width: 100%;
+
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(40, 40, 40);
+  word-wrap: break-word;
+}
+.task-datetime {
+  width: 100%;
+
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(245, 0, 0);
+}
+
+
+/* --- Подвал задачи с кнопками --- */
+.task-footer {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.task-footer__button {
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+  width: auto;
+  padding: 5px 10px;
+  background-color: rgb(247, 247, 247);
+
+
+  font-size: 14px;
+  color: rgb(40, 40, 40);
+  text-decoration: none;
+}
+
+
+/* --- Задач нет --- */
+.tasks-empty {
+  border: 1px solid rgb(220, 220, 220);
+  width: 100%;
+  padding: 15px;
+  background-color: #fff;
+
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+}

@@ -1,0 +1,57 @@
+.container{
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items: center
+}
+
+
+/* --- Форма --- */
+.authorization{
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 10px;
+  width: 350px;
+  padding: 15px;
+  background-color: #fff;
+
+  display:flex;
+  flex-direction:column;
+  gap: 15px;
+}
+h1{
+  font-size: 25px;
+  text-align: center;
+}
+.authorization-error {
+  width: 100%;
+  padding: 0px 10px;
+
+  color: rgb(177, 0, 0);
+  text-align: center;
+}
+.authorization-input{
+  border:1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+  width: 100%;
+  height: 35px;
+  padding: 0px 10px;
+  background-color: rgb(240, 240, 240);
+  font-size:14px;
+}
+.authorization-submit{
+  border:0;
+  border-radius:5px;
+  width:100%;
+  height:40px;
+  background-color:rgb(62,162,221);
+  color:#fff;
+  font-size: 14px;
+  cursor:pointer;
+}
+.authorization-link{
+  width:100%;
+  text-align:center;
+  font-size:14px;
+  color: rgb(30, 76, 211);
+}

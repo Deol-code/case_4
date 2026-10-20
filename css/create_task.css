@@ -1,0 +1,85 @@
+.container{
+  width:100%;
+  margin-top: 60px;
+  padding: 15px 0px;
+
+  display:flex;
+  justify-content:center;
+  align-items: center
+}
+
+
+/* --- ФОРМА --- */
+.create-task{
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 10px;
+  width: 450px;
+  padding: 15px;
+  background-color: #fff;
+
+  display:flex;
+  flex-direction:column;
+  gap: 15px;
+}
+h1{
+  font-size: 21px;
+  text-align: center;
+}
+.create-task__error {
+  width: 100%;
+  height: auto;
+
+  font-size: 14px;
+  color: red;
+  text-align: center;
+}
+.create-task__field {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.create-task__label {
+  width: 100%;
+
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+}
+.create-task__title, .create-task__description{
+  border:1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  background-color: rgb(252, 252, 252);
+  resize: vertical;
+
+  font-size: 14px;
+}
+.create-task__title {
+  height: 40px !important;
+  padding: 0px 10px !important;
+}
+.create-task__calendar {
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  background-color: #fff;
+
+  color: #000;
+}
+.create-task__submit{
+  border:0;
+  border-radius:5px;
+  width:100%;
+  height:40px;
+  background-color:rgb(62,162,221);
+  color:#fff;
+  font-size: 14px;
+  cursor:pointer;
+}
